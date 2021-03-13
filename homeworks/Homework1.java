@@ -9,7 +9,7 @@ public class Homework1 implements Mergesort {
 
     @Override
     public int[] getSecondHalfOf(int[] array) {
-        int delkaDelenaDvema = (array.length+1)/2;
+        int delkaDelenaDvema = (array.length)/2;
         int[] newArray = new int[delkaDelenaDvema];
         System.arraycopy(array, delkaDelenaDvema, newArray, 0, delkaDelenaDvema);
         return newArray;
